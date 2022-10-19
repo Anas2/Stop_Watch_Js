@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <h1 class="heading"> <i class="fa-solid fa-stopwatch"></i> Stop Watch</h1>
+    <div class="main">
+        
+        <span id="hours"></span> <span> : </span>
+        <span id="minuts"></span> <span> : </span>
+        <span id="seconds"></span> <span> : </span>
+        <span id="milisec"></span>
+        
+        <br>
+        <button id="s" onclick="start(this)"><i class="fa-solid fa-play"></i> Strat </i></button>
+        <button id="p" onclick="pause(this)"><i class="fa-solid fa-pause"></i> Pause</button>
+        <button id="r" onclick="reset(this)"><i class="fa-solid fa-rotate-right"></i> Reset</button>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
